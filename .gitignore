@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.py[cod]
+/data-src/
+/dataset-curated/
+/data.yaml
+/runs/
+*.pt
+*.onnx

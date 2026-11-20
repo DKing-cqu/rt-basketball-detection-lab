@@ -1,0 +1,70 @@
+{
+  "plos01": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Basketball-Shot-Types-and-Shot-Success-in-Different-Levels-of-Competitive-Basketball-pone.0128885.s001.ogv",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Basketball-Shot-Types-and-Shot-Success-in-Different-Levels-of-Competitive-Basketball-pone.0128885.s001.ogv",
+    "file": "data-src/plos01.ogv",
+    "sha256": "5f73f1a5185144f0f88a8182180dc3830d9b9aa6f04115b3a3d0735adcacbf32",
+    "author": "Frane Erčulj, Erik Štrumbelj",
+    "license": "CC BY 4.0"
+  },
+  "plos02": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Basketball-Shot-Types-and-Shot-Success-in-Different-Levels-of-Competitive-Basketball-pone.0128885.s002.ogv",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Basketball-Shot-Types-and-Shot-Success-in-Different-Levels-of-Competitive-Basketball-pone.0128885.s002.ogv",
+    "file": "data-src/plos02.ogv",
+    "sha256": "30da212804330dd587b72a16aa453cb105edbbe440b99dd19d2b6897f9008609",
+    "author": "Frane Erčulj, Erik Štrumbelj",
+    "license": "CC BY 4.0"
+  },
+  "plos03": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Basketball-Shot-Types-and-Shot-Success-in-Different-Levels-of-Competitive-Basketball-pone.0128885.s003.ogv",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Basketball-Shot-Types-and-Shot-Success-in-Different-Levels-of-Competitive-Basketball-pone.0128885.s003.ogv",
+    "file": "data-src/plos03.ogv",
+    "sha256": "8547859308face296f29cb7daa4d4563ef42e0f5c62246ccbdad04c88c083f04",
+    "author": "Frane Erčulj, Erik Štrumbelj",
+    "license": "CC BY 4.0"
+  },
+  "plos06": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Basketball-Shot-Types-and-Shot-Success-in-Different-Levels-of-Competitive-Basketball-pone.0128885.s006.ogv",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Basketball-Shot-Types-and-Shot-Success-in-Different-Levels-of-Competitive-Basketball-pone.0128885.s006.ogv",
+    "file": "data-src/plos06.ogv",
+    "sha256": "35559c3de4d135e2fa2cb9abd14b9685b5266d74789ee3cb65486bd2a2ad84ca",
+    "author": "Frane Erčulj, Erik Štrumbelj",
+    "license": "CC BY 4.0"
+  },
+  "plos07": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Basketball-Shot-Types-and-Shot-Success-in-Different-Levels-of-Competitive-Basketball-pone.0128885.s007.ogv",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Basketball-Shot-Types-and-Shot-Success-in-Different-Levels-of-Competitive-Basketball-pone.0128885.s007.ogv",
+    "file": "data-src/plos07.ogv",
+    "sha256": "b7fb985d0fb0e263dd56e4874c3ee0265265613b1c7970a85dbdb67376e28486",
+    "author": "Frane Erčulj, Erik Štrumbelj",
+    "license": "CC BY 4.0"
+  },
+  "plos09": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Basketball-Shot-Types-and-Shot-Success-in-Different-Levels-of-Competitive-Basketball-pone.0128885.s009.ogv",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Basketball-Shot-Types-and-Shot-Success-in-Different-Levels-of-Competitive-Basketball-pone.0128885.s009.ogv",
+    "file": "data-src/plos09.ogv",
+    "sha256": "3ea09806b6e05da15aabdfd53a04b3ea79050410da2eea6ad2da0829c32c2c03",
+    "author": "Frane Erčulj, Erik Štrumbelj",
+    "license": "CC BY 4.0"
+  },
+  "jackson": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/20240301_Jackson_McAndrew_free_throw_video_01.webm",
+    "source_page": "https://commons.wikimedia.org/wiki/File:20240301_Jackson_McAndrew_free_throw_video_01.webm",
+    "file": "data-src/jackson.webm",
+    "sha256": "a3fe6000b8dcfe1a5dfbe2a90d497eb4503542f24e3df00327101e48c5ffc558",
+    "author": "TonyTheTiger",
+    "license": "CC BY 4.0"
+  },
+  "rt": {
+    "url": "https://raw.githubusercontent.com/Ecrypted-Data/rt-traditional-vision-lab/73070a0959708efd49482af9062b588390ed6b01/samples/basketball.mp4",
+    "source_page": "https://github.com/Ecrypted-Data/rt-traditional-vision-lab/blob/73070a0959708efd49482af9062b588390ed6b01/samples/basketball.mp4",
+    "file": "data-src/rt.mp4",
+    "sha256": "f244ae13c9472ebb047d0c09caaaf41b947cad22decb66333c97fb82aff171a2",
+    "author": "RT 视觉组训练仓库",
+    "license": "按 RT 视觉组原仓库分享范围使用"
+  },
+  "weights": {
+    "url": "https://github.com/ultralytics/assets/releases/download/v8.3.0/yolo11n.pt",
+    "sha256": "0ebbc80d4a7680d14987a577cd21342b65ecfd94632bd9a8da63ae6417644ee1"
+  }
+}
