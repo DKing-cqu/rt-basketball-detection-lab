@@ -103,8 +103,8 @@ def train():
     )
 
 
-def load_detector(weights):
-    detector = YOLO(str(weights))
+def load_detector(weights, *, task=None):
+    detector = YOLO(str(weights), task=task)
     names = {name.lower(): index for index, name in detector.names.items()}
     target = names.get("basketball", names.get("sports ball"))
     if target is None:
@@ -112,10 +112,12 @@ def load_detector(weights):
     return detector, target
 
 
-def predict_frame(model, target, image, size, confidence):
+def predict_frame(model, target, image, size, confidence, *, rect=None):
+    padding = {} if rect is None else {"rect": rect}
     start = time.perf_counter()
     result = model.predict(
         image, classes=[target], imgsz=size, conf=confidence, device="cpu", verbose=False,
+        **padding,
     )[0]
     detections = [
         {"bbox_xyxy": box, "class": model.names[target], "confidence": value}
