@@ -10,7 +10,7 @@
 
 ## 跑通起始材料
 
-已在 Ubuntu、Python 3.12、PyTorch 2.6 CPU 和 Ultralytics 8.3.232 上试跑。Ubuntu 或 WSL 需有 Python 虚拟环境支持和 curl。先克隆仓库，然后在仓库根目录运行。提交培训任务时，可以在自己的 Fork 中保留实验代码和结果。
+课程与本仓库共用项目下的 .venv，依赖版本与课文一致。Ubuntu 或 WSL 需有 python3-venv 和 curl。若创建虚拟环境时报缺少 ensurepip，先安装 python3-venv，再运行环境配置。提交作业时使用个人 Fork 中的工作分支。
 
 ```bash
 git clone https://github.com/Ecrypted-Data/rt-basketball-detection-lab.git
@@ -26,6 +26,21 @@ python lab.py replay --source data-src/rt.mp4 --limit 8 --output runs/replay-sta
 `prepare` 会从清单中的链接下载原始视频和预训练权重，校验后生成 YOLO 格式数据。重复运行复用已校验的素材。准备完成后，可用 `python lab.py train` 做一次微调，权重在 `runs/lesson-fit/weights/best.pt`。回放默认使用初始权重。
 
 `python lab.py eval --split val --output runs/val-baseline.jsonl` 会输出逐帧结果和分组汇总。用 `--weights`、`--imgsz`、`--conf` 改变要比较的条件，每次给结果一个不同的文件名。方案定下来后再选 `--split test`。具体提交和验收要求见飞书正文。
+
+## 任务六的尺寸核对入口
+
+已准备好素材后，在激活的项目环境中安装导出与推理所需的两个依赖。按题面自行导出固定尺寸的 ONNX 模型，再调用核对入口。
+
+```bash
+python -m pip install -c requirements.txt onnx==1.19.1 onnxruntime==1.32.0
+python compare_onnx.py --onnx ./yolo11n.onnx --output submission/task06/backend-comparison.json
+```
+
+入口记录 PyTorch 的实际输入张量尺寸、ONNX 的固定输入尺寸和三张指定素材的原图坐标输出。请根据题面的配对规则核对输出并写下切换判断。若导出工具要求安装简化器，可以在导出时设置 `simplify=False`。
+
+## 保存作业材料
+
+将需要交付的复现代码、配置及精简结果放在 `submission/task01/` 至 `submission/task06/` 等可提交目录，README 写明每题的复跑入口。仓库会忽略 `runs/`、生成的数据集和模型权重。需要验收的日志或对照表可复制到对应提交目录，截图和 CVAT 导出包也可以在问卷对应的附件题提交。
 
 ## 怎样读结果
 
