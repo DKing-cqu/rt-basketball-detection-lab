@@ -1,0 +1,4 @@
+frame,pytorch_count,onnx_count,paired,iou,confidence_delta,empty_match,criterion_met
+100,1,1,yes,1.000000,0.000000060,,yes
+150,0,0,yes,,,yes,yes
+200,0,0,yes,,,yes,yes

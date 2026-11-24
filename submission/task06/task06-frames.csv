@@ -1,0 +1,7 @@
+frame,backend,class,bbox_xyxy,confidence,empty,pair_iou,confidence_delta,criterion_met
+100,PyTorch,sports ball,"[140.13, 391.16, 260.04, 516.37]",0.638958,no,1.000000,0.000000060,yes
+100,ONNX Runtime,sports ball,"[140.13, 391.16, 260.04, 516.37]",0.638958,no,1.000000,0.000000060,yes
+150,PyTorch,,,,yes,,,yes
+150,ONNX Runtime,,,,yes,,,yes
+200,PyTorch,,,,yes,,,yes
+200,ONNX Runtime,,,,yes,,,yes

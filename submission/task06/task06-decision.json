@@ -1,0 +1,39 @@
+{
+  "input_size": 416,
+  "conf": 0.1,
+  "rect": false,
+  "criteria": "same class, one-to-one, IoU >= 0.95, confidence delta <= 0.01, empty results consistent",
+  "frames": [
+    {
+      "frame": 100,
+      "pytorch_count": 1,
+      "onnx_count": 1,
+      "paired": "yes",
+      "iou": "1.000000",
+      "confidence_delta": "0.000000060",
+      "empty_match": "",
+      "criterion_met": "yes"
+    },
+    {
+      "frame": 150,
+      "pytorch_count": 0,
+      "onnx_count": 0,
+      "paired": "yes",
+      "iou": "",
+      "confidence_delta": "",
+      "empty_match": "yes",
+      "criterion_met": "yes"
+    },
+    {
+      "frame": 200,
+      "pytorch_count": 0,
+      "onnx_count": 0,
+      "paired": "yes",
+      "iou": "",
+      "confidence_delta": "",
+      "empty_match": "yes",
+      "criterion_met": "yes"
+    }
+  ],
+  "switch_backend": true
+}

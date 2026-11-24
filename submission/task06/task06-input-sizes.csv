@@ -1,0 +1,3 @@
+backend,input_shape,evidence
+PyTorch,"[1, 3, 416, 416]","forward pre-hook, 3/3 frames"
+ONNX Runtime,"[1, 3, 416, 416]",InferenceSession.get_inputs()[0].shape
