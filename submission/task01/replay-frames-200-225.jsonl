@@ -1,0 +1,2 @@
+{"frame": 200, "time_s": 3.3325, "width": 360, "height": 640, "detections": [], "elapsed_ms": 29.41}
+{"frame": 225, "time_s": 3.7491, "width": 360, "height": 640, "detections": [{"bbox_xyxy": [24.644378662109375, 156.35012817382812, 132.90771484375, 265.4554138183594], "class": "sports ball", "confidence": 0.1937088966369629}], "elapsed_ms": 34.99}

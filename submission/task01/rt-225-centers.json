@@ -1,0 +1,62 @@
+{
+  "source": "dataset-curated/images/val/rt-225.jpg",
+  "weights": "yolo11n.pt",
+  "weights_sha256": "0ebbc80d4a7680d14987a577cd21342b65ecfd94632bd9a8da63ae6417644ee1",
+  "device": "cpu",
+  "imgsz": 640,
+  "conf": 0.1,
+  "classes": [
+    "sports ball"
+  ],
+  "command": ".venv/bin/python submission/task01/build_task01.py",
+  "original": {
+    "image": "rt-225.jpg",
+    "elapsed_ms": 38.8,
+    "detections": [
+      {
+        "bbox_xyxy": [
+          24.39,
+          156.21,
+          133.0,
+          265.45
+        ],
+        "class": "sports ball",
+        "confidence": 0.251331
+      }
+    ],
+    "top_center_xy": [
+      78.69,
+      210.83
+    ]
+  },
+  "flipped": {
+    "image": "rt-225-flip.png",
+    "elapsed_ms": 27.94,
+    "detections": [
+      {
+        "bbox_xyxy": [
+          227.55,
+          156.48,
+          336.28,
+          266.08
+        ],
+        "class": "sports ball",
+        "confidence": 0.280921
+      }
+    ],
+    "top_center_xy": [
+      281.92,
+      211.28
+    ],
+    "mirrored_to_original_xy": [
+      78.08,
+      211.28
+    ]
+  },
+  "mirror_rule": "x_original = width - x_flipped, y unchanged",
+  "width": 360,
+  "delta_mirrored_px": [
+    -0.61,
+    0.45
+  ]
+}

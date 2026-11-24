@@ -1,0 +1,5 @@
+item,frame,image,conf_threshold,confidence,bbox_xyxy,center_x,center_y,mirrored_x,note
+rt-100 first inference,100,rt-100.jpg,0.25,0.512906,"[139.41, 390.48, 260.47, 516.74]",199.94,453.61,,"weights=yolo11n.pt, device=cpu, imgsz=640, class=sports ball"
+rt-225 original,225,rt-225.jpg,0.1,0.251331,"[24.39, 156.21, 133.0, 265.45]",78.69,210.83,,replay frame 225 at conf=0.10
+rt-225 flipped,225,rt-225-flip.png,0.1,0.280921,"[227.55, 156.48, 336.28, 266.08]",281.92,211.28,78.08,horizontal flip; mirrored_x = width - flip center x
+replay frame 200,200,rt.mp4,0.1,,,,,,empty detection record retained

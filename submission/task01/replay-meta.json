@@ -1,0 +1,17 @@
+{
+  "source": "data-src/rt.mp4",
+  "weights": "yolo11n.pt",
+  "weights_sha256": "0ebbc80d4a7680d14987a577cd21342b65ecfd94632bd9a8da63ae6417644ee1",
+  "device": "cpu",
+  "imgsz": 640,
+  "conf": 0.1,
+  "classes": [
+    "sports ball"
+  ],
+  "command": ".venv/bin/python lab.py replay --source data-src/rt.mp4 --imgsz 640 --conf 0.10 --output submission/task01/replay-conf010.jsonl",
+  "frames": 302,
+  "frame_range": [
+    0,
+    301
+  ]
+}
