@@ -1,0 +1,33 @@
+{
+  "corrections": [
+    {
+      "frame": "rt-125",
+      "wrong_split": "train",
+      "correct_split": "val",
+      "reason": "RT 是同一段录像，所有 RT 帧必须同组。"
+    },
+    {
+      "frame": "jackson-011",
+      "wrong_split": "val",
+      "correct_split": "test",
+      "reason": "Jackson 是留出的独立测试录像，所有 Jackson 帧必须同组。"
+    }
+  ],
+  "corrected_sources": {
+    "train": [
+      "plos01",
+      "plos02",
+      "plos03",
+      "plos06",
+      "plos07",
+      "plos09"
+    ],
+    "val": [
+      "rt"
+    ],
+    "test": [
+      "jackson"
+    ]
+  },
+  "crossings_remaining": 0
+}

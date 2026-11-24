@@ -1,0 +1,5 @@
+metric,numerator,denominator
+matched,0,7
+missed_ball_frames,7,7
+empty_false_alarm_frames,0,1
+extra_boxes,1,

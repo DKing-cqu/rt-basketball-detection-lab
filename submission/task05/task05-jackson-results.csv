@@ -1,0 +1,9 @@
+frame,time_s,group,has_ball,annotation_xyxy,detections,best_iou,matched,missed,empty_false_alarm,extra_boxes,note
+3,0.1042,small,yes,"[584,785,694,887]",[],0.0000,no,1,0,0,ball missed
+11,0.3819,small,yes,"[626,1139,720,1233]",[],0.0000,no,1,0,0,ball missed
+19,0.6596,small,yes,"[605,875,707,969]",[],0.0000,no,1,0,0,ball missed
+27,0.9374,small,yes,"[631,879,733,981]",[],0.0000,no,1,0,0,ball missed
+35,1.2151,small,yes,"[694,811,805,896]","[{""bbox_xyxy"":[35.918521881103516,1321.7108154296875,97.29623413085938,1394.7568359375],""class"":""sports ball"",""confidence"":0.2767553925514221}]",0.0000,no,1,0,1,ball missed; extra box
+43,1.4929,small,yes,"[648,495,767,597]",[],0.0000,no,1,0,0,ball missed
+51,1.7706,edge,yes,"[767,0,852,73]",[],0.0000,no,1,0,0,ball missed
+59,2.0484,empty,no,[],[],0.0000,no,0,0,0,empty frame; no false alarm

@@ -6,5 +6,6 @@
 | 任务二：CVAT 标注与尺寸核对 | `task02/` | `.venv/bin/python submission/task02/build_task02.py` |
 | 任务三：输入尺寸与阈值对比 | `task03/` | `bash submission/task03/run_task03.sh` |
 | 任务四：全量与冻结微调对比 | `task04/` | `bash submission/task04/run_task04.sh` |
+| 任务五：数据划分与 Jackson 独立测试 | `task05/` | `bash submission/task05/run_task05.sh` |
 
 每个任务目录内的 `README.md` 记录该题的文件说明、复跑命令和结果。
