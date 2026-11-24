@@ -1,0 +1,5 @@
+filename,width,height,has_label,label_count,class_id,class_name,bbox_xyxy,normalized_label,label_file
+rt-125.jpg,360,640,yes,1,0,basketball,"48,303,167,425",0 0.298611 0.568750 0.330556 0.190625,labels/train/rt-125.txt
+rt-150.jpg,360,640,yes,1,0,basketball,"0,247,31,344",0 0.043056 0.461719 0.086111 0.151562,labels/train/rt-150.txt
+rt-200.jpg,360,640,no,0,,,,,labels/train/rt-200.txt
+plos02-055.jpg,1920,1080,yes,1,0,basketball,"1072,563,1141,632",0 0.576302 0.553241 0.035937 0.063889,labels/train/plos02-055.txt
