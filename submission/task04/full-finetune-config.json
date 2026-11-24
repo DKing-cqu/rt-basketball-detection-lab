@@ -1,0 +1,23 @@
+{
+  "scheme": "full",
+  "weights": "yolo11n.pt",
+  "data": "/home/dking/rt-basketball-detection-lab/rt-basketball-detection-lab/data.yaml",
+  "device": "cpu",
+  "imgsz": 416,
+  "epochs": 5,
+  "batch": 8,
+  "workers": 0,
+  "seed": 42,
+  "deterministic": true,
+  "optimizer": "AdamW",
+  "lr0": 0.001,
+  "mosaic": 0.0,
+  "mixup": 0.0,
+  "scale": 0.2,
+  "plots": false,
+  "project": "/home/dking/rt-basketball-detection-lab/rt-basketball-detection-lab/runs",
+  "exist_ok": true,
+  "verbose": true,
+  "freeze": 0,
+  "name": "task04-full"
+}

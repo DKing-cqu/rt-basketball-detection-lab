@@ -5,5 +5,6 @@
 | 任务一：环境与篮球检测 | `task01/` | `bash submission/task01/env-check.sh`；`.venv/bin/python lab.py replay --source data-src/rt.mp4 --imgsz 640 --conf 0.10 --output submission/task01/replay-conf010.jsonl`；`.venv/bin/python submission/task01/build_task01.py` |
 | 任务二：CVAT 标注与尺寸核对 | `task02/` | `.venv/bin/python submission/task02/build_task02.py` |
 | 任务三：输入尺寸与阈值对比 | `task03/` | `bash submission/task03/run_task03.sh` |
+| 任务四：全量与冻结微调对比 | `task04/` | `bash submission/task04/run_task04.sh` |
 
 每个任务目录内的 `README.md` 记录该题的文件说明、复跑命令和结果。

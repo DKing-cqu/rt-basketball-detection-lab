@@ -1,0 +1,3 @@
+scheme,weights,imgsz,conf,match_iou,regular_hits,regular_total,regular_fraction,edge_hits,edge_total,edge_fraction,empty_false_alarms,empty_total,empty_fraction,ball_hits,ball_total,ball_fraction
+full,runs/task04-full/weights/best.pt,640,0.25,0.5,0,10,0/10,0,2,0/2,0,2,0/2,0,12,0/12
+frozen10,runs/task04-frozen10/weights/best.pt,640,0.25,0.5,0,10,0/10,0,2,0/2,0,2,0/2,0,12,0/12

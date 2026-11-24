@@ -1,0 +1,15 @@
+{
+  "scheme": "full",
+  "freeze": 0,
+  "frozen_layers": [],
+  "always_frozen_by_ultralytics": [
+    ".dfl"
+  ],
+  "frozen_parameter_tensors": 1,
+  "missing_after_training": [],
+  "frozen_max_abs_diff_after_training": 0.0,
+  "frozen_unchanged": true,
+  "total": 2624080,
+  "trainable": 2624064,
+  "frozen": 16
+}
