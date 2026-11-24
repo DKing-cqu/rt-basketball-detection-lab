@@ -1,0 +1,4 @@
+config,imgsz,conf,regular_hits,regular_total,regular_fraction,edge_hits,edge_total,edge_fraction,empty_false_alarms,empty_total,empty_fraction,ball_hits,ball_total,ball_fraction
+A,640,0.10,3,10,3/10,1,2,1/2,0,2,0/2,4,12,4/12
+B,320,0.10,3,10,3/10,0,2,0/2,0,2,0/2,3,12,3/12
+C,320,0.25,2,10,2/10,0,2,0/2,0,2,0/2,2,12,2/12
